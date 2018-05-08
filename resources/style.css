@@ -1,0 +1,66 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Banner */
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  width: 100%;
+  background-image: url("./images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+}
+
+/* Top Banner Bar */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background-color: cadetblue;
+}
+.logo, .links {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.links span {
+  padding: 1rem 2rem 1rem 0;
+}
+
+/* Bottom Banner Bar */
+
+.look {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  width: auto;
+}
+.look span {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
